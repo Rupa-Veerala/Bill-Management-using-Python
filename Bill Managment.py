@@ -52,10 +52,10 @@ def Total():
     c8=20*a8
 
 
-    lb1_total = Label(f2,font=("aria",18,"bold"),text="Total",width="300",height="2")
+    lb1_total = Label(f2,font=("aria",18,"bold"),text="Total",width="16",fg="gold",bg="black")
     lb1_total.place(x=0,y=50)
 
-    entry_total = Entry(f2,font=('aria',18,"bold"),textvariable=Total_bill,bd=6,width=15,bg="lightgreen")
+    entry_total = Entry(f2,font=('aria',18,"bold"),textvariable=Total_bill,bd=6,width=15,bg="gold")
     entry_total.place(x=20,y=100)
 
     totalcost = c1+c2+c3+c4+c5+c6+c7+c8
@@ -65,7 +65,7 @@ Label(text="BILL MANAGEMENT", bg="black",fg="white",font=("calibri",35),width="3
 
 #MENU CARD
 f=Frame(root,bg="orange",highlightbackground="black",highlightthickness=1,width=300,height=363)
-f.place(x=10,y=129)
+f.place(x=10,y=128)
 
 Label(f,text="Menu",font=("Gabriola",40,"bold"),fg="black",bg="orange").place(x=80,y=0)
 
@@ -142,4 +142,7 @@ btn_reset.grid(row=9,column=0)
 
 btn_total=Button(f1,bd=5,fg="black",bg="lightblue",font=("ariel",16,"bold"),width=8,text="Total",command=Total)
 btn_total.grid(row=9,column=1)
+
+
+
 root.mainloop()
