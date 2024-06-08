@@ -52,7 +52,16 @@ def Total():
     c8=20*a8
 
 
-Label(text="BILL MANAGEMENT", bg="black",fg="white",font=("calibri",35),width="300",height="2").pack()
+    lb1_total = Label(f2,font=("aria",18,"bold"),text="Total",width="300",height="2")
+    lb1_total.place(x=0,y=50)
+
+    entry_total = Entry(f2,font=('aria',18,"bold"),textvariable=Total_bill,bd=6,width=15,bg="lightgreen")
+    entry_total.place(x=20,y=100)
+
+    totalcost = c1+c2+c3+c4+c5+c6+c7+c8
+    string_bill = "Rs.",str('%.2f' %totalcost)
+    Total_bill.set(string_bill)
+Label(text="BILL MANAGEMENT", bg="black",fg="white",font=("calibri",35),width="300",height="1").pack()
 
 #MENU CARD
 f=Frame(root,bg="orange",highlightbackground="black",highlightthickness=1,width=300,height=363)
