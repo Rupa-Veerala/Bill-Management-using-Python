@@ -13,4 +13,5 @@ MENU CARD, RATES, BILL
 **Screenshots Of Output**
 
 
+![image](https://github.com/Rupa-Veerala/Bill-Management-using-Python/assets/102415108/a656f8e9-4792-4964-bb2c-6eb61ca95ad7)
 
