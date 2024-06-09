@@ -10,7 +10,7 @@ Three options will be there
 
 MENU CARD, RATES, BILL
 
-**SCREENSHOTS OF OUTOUT**
+**Screenshots Of Output**
 
 
 
